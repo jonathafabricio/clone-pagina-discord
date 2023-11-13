@@ -10,6 +10,7 @@
 
 body {
    width: 100vw;
+   overflow-x: hidden;
 }
 
 h1, h2 {
@@ -44,18 +45,18 @@ p {
 /*------------------------- HEADER -------------------------*/
 
 header {
-   background: url('../img/header-background-mobile.png');
+   background: url('../img/header-background-mobile.png') center/cover no-repeat;
    width: 100%;
    padding: 1.5rem;
 
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-items: center;
    align-content: center;
-   flex-wrap: wrap;
 
-   margin-left: auto;
-   margin-right: auto;
+
+
 }
 
 header #header-content {

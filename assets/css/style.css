@@ -54,9 +54,6 @@ header {
    justify-content: center;
    align-items: center;
    align-content: center;
-
-
-
 }
 
 header #header-content {
@@ -317,5 +314,12 @@ footer img {
    footer img {
       width: 14.375rem;
       height: 3.9375rem;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   header {
+      background-position: center;
+      background-size: cover;
    }
 }
